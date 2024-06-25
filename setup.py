@@ -1,18 +1,18 @@
 from setuptools import setup, find_packages
 
-version = '0.1.0'
+version = '0.2.0'
 
 REQUIREMENTS = [
     'scrapy'
 ]
 
 setup(
-    name='kingofsat',
+    name='bp_kingofsat',
     version=version,
     packages=find_packages(),
-    author='Enes Emre BULUT',
-    author_email='bulutenesemre@gmail.com',
+    author='Chris van den Berg',
+    author_email='chrizus@gmail.com',
     install_requires=REQUIREMENTS,
-    description='Scrapy library which uses channel parsing from kingofsat',
+    description='Scrapy library which uses channel parsing from kingofsat. original author: Enes Emre BULUT (bulutenesemre@gmail.com)',
     include_package_data=True
 )
